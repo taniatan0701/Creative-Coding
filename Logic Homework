@@ -1,0 +1,31 @@
+int x = 2;
+int y = 4;
+int z = 6;
+boolean a = false;
+if(x+y==z) { 
+  print(x+y, a);
+}
+Console: 6 false
+
+
+int a = 50;
+int b = 100;
+int c = 200;
+boolean x = true;
+if(a*2 == b) {
+  print(b + c, x); }
+  else {
+    print(!x); 
+  }
+Console: 300 true
+
+
+int a = 24;
+int b = 34;
+int c = 44;
+float d = a*c;
+if(a<b) {
+  print(b + d); }
+  else if(c - a == 20);
+  print (d);
+Console: 1090.01056.0
